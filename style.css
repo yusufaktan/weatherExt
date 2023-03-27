@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.container{
+  font-family: 'PT Sans', sans-serif;
+  height: 250px;
+  width: 250px;
+  background-image: linear-gradient(to right top, #4a4a4a, #525359, #585d69, #5a6879, #597489, #58839a, #5692a9, #51a1b7, #4fb7ca, #4fceda, #54e4e7, #5ffbf1);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.texts{
+  padding: 20px;
+  font-size: 20px;
+}
+
+#searchBar{
+  background: transparent;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  border-bottom: 2px solid black;
+  color: white;
+  padding-top: 15px;
+}
+::placeholder{
+  color: gainsboro;
+}

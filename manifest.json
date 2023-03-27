@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Extension",
+  "version": "1.0.1",
+  "description": "with openweathermap API",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "test.png"
+  },
+
+  "icons": {
+    "16": "test.png",
+    "32": "test.png",
+    "48": "test.png",
+    "128": "test.png"
+  }
+  
+}
